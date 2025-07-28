@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('fondo epico.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header.designer {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #FFD700;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid #FFD700;
+    font-weight: bold;
+}
+
+header.designer span {
+    color: #87CEEB;
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 10px;
+    color: #FFD700;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #FFD700;
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FFA500;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #FFA500;
+    width: calc(100% - 40px);
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+section {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+h3 {
+    color: #87CEEB;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: #0fe649;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid #0fe649;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #0fe649;
+    border-color: #000;
+    transform: scale(1.1);
+}
+
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: rgb(27, 14, 89);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2em;
+    color: #FFA500;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    border-radius: 8px;
+    border: 3px solid #FFA500;
+    width: calc(100% - 50px);
+    max-width: 800px;
+    margin: 20px auto;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 15px 20px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+span.important {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+span.emphasis {
+    font-style: italic;
+    color: #87CEEB;
+}
+
+span.underline {
+    text-decoration: underline;
+    color: #FFA500;
+    font-weight: bold;
+}
+
